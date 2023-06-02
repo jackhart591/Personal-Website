@@ -13,7 +13,7 @@ app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 app.use(sslRedirect())
 
-var port = process.env.PORT || 8000
+var port = process.env.PORT || 8001
 
 const classesTaken = [
   { code: 'CS 475', date: "Spring 2023"},
